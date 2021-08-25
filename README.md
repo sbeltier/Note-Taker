@@ -20,11 +20,13 @@
 ### Description
 This is a general note taker than allows the user to save notes.
 
+See the live version deployed [here](https://ancient-tor-96278.herokuapp.com/)!
+
 ### Usage
 The user begins by clicking the "Get Started" button on the homepage. In order to save a note, the user must give the note a title and a description. Upon clicking from note to note, the information previously submitted will appear. This app was deployed on Heroku.
 
 ### Installation
-This Team Profile Generator runs on Node.js and uses the npm packages Inquirer and Jest
+This Note Taker runs on Node.js and uses the npm packages Express and UUID
 
 To prepare your Node.js environment, open your command-line and type the following:
 1.) type: npm install
