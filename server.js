@@ -68,6 +68,6 @@ app.get('/*', (req, res) => {
 });
 
 // Listen for Port  
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Listening at http://localhost:${PORT}`);
 })
