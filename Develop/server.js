@@ -58,8 +58,8 @@ app.post('/api/notes', (req, res) => {
   fs.writeFileSync("./db/db.json", JSON.stringify(notes))
   res.json(notes)
 
-  // Returns notes from database to /notes page
-  res.json(note_database);
+  // // Returns notes from database to /notes page
+  // res.json(note_database);
 });
 
 // Default Path...
@@ -69,5 +69,5 @@ app.get('/*', (req, res) => {
 
 // Listen for Port  
 app.listen(PORT, () => {
-    console.log(`Example app listening at http://localhost:${PORT}`);
+    console.log(`Listening at http://localhost:${PORT}`);
 })
